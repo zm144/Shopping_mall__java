@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+   <bean id="ProductDao" class="com.lucys.dao.impl.ProductDaoImpl"/>
+   <bean id="UserDao" class="com.lucys.dao.impl.UserDaoImpl"/>
+   <bean id="CategoryDao" class="com.lucys.dao.impl.CategoryDaoImpl"/>
+   <bean id="OrderDao" class="com.lucys.dao.impl.OrderDaoImpl"/>
+   <bean id="NoteDao" class="com.lucys.dao.impl.NoteDaoImpl"/>
+   
+   <bean id="ProductService" class="com.lucys.service.impl.ProductServiceImpl"/>
+   <bean id="UserService" class="com.lucys.service.impl.UserServiceImpl"/>
+   <bean id="CategoryService" class="com.lucys.service.impl.CategoryServiceImpl"/>
+   <bean id="OrderService" class="com.lucys.service.impl.OrderServiceImpl"/>
+   <bean id="NoteService" class="com.lucys.service.impl.NoteServiceImpl"/>
+</beans>
